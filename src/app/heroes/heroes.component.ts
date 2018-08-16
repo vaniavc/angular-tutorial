@@ -16,6 +16,7 @@ export class HeroesComponent implements OnInit {
         name: 'Windstrom'
     }; */
     heroes = HEROES;
+
     selectedHero: Hero;
 
     onSelect(hero: Hero): void {
